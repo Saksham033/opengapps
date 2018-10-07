@@ -66,9 +66,12 @@ getapkproperties(){
     "com.android.vending" |\
     "com.android.vending.leanback" |\
     "com.google.android.androidforwork" |\
-    "com.google.android.apps.mediashell.leanback" |\
     "com.google.android.apps.gcs" |\
+    "com.google.android.apps.mediashell.leanback" |\
     "com.google.android.apps.nexuslauncher" |\
+    "com.google.android.apps.pixelmigrate" |\
+    "com.google.android.apps.wellbeing" |\
+    "com.google.android.as" |\
     "com.google.android.backuptransport" |\
     "com.google.android.configupdater" |\
     "com.google.android.contacts" |\
@@ -105,6 +108,7 @@ getapkproperties(){
   if [ -n "$watch" ]; then
     case "$package" in
       com.android.vending* |\
+      com.google.android.apps.enterprise.dmagent* |\
       com.google.android.apps.fitness* |\
       com.google.android.apps.maps* |\
       com.google.android.apps.messaging* |\
